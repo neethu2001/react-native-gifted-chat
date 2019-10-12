@@ -100,7 +100,7 @@
 - Both dependencies are removed since `0.11.0`.
 - You still be able to provide a `video` but you need to provide `renderMessageVideo` prop.
 
-## You have a question ?
+## You have a question?
 
 1. Please check this readme and may find a response
 1. Please ask on StackOverflow first: https://stackoverflow.com/questions/tagged/react-native-gifted-chat
@@ -113,7 +113,7 @@
 import React from 'react'
 import { GiftedChat } from 'react-native-gifted-chat'
 
-class Example extends React.Component {
+class Example extends React. Component {
   state = {
     messages: [],
   }
@@ -306,7 +306,7 @@ interface QuickReplies {
 - **`imageProps`** _(Object)_ - Extra props to be passed to the [`<Image>`](https://facebook.github.io/react-native/docs/image.html) component created by the default `renderMessageImage`
 - **`videoProps`** _(Object)_ - Extra props to be passed to the video component created by the required `renderMessageVideo`
 - **`lightboxProps`** _(Object)_ - Extra props to be passed to the `MessageImage`'s [Lightbox](https://github.com/oblador/react-native-lightbox)
-- **`isCustomViewBottom`** _(Bool)_ - Determine wether renderCustomView is displayed before or after the text, image and video views; default is `false`
+- **`isCustomViewBottom`** _(Bool)_ - Determine whether renderCustomView is displayed before or after the text, image and video views; default is `false`
 - **`renderCustomView`** _(Function)_ - Custom view inside the bubble
 - **`renderDay`** _(Function)_ - Custom day above a message
 - **`renderTime`** _(Function)_ - Custom time inside a message
@@ -373,7 +373,7 @@ simply implement `onInputTextChanged` to receive typing events and reset events 
 
 ## Notes for Android
 
-If you are using Create React Native App / Expo, no Android specific installation steps are required -- you can skip this section. Otherwise we recommend modifying your project configuration as follows.
+If you are using Create React Native App / Expo, no Android specific installation steps are required -- you can skip this section. Otherwise,we recommend modifying your project configuration as follows.
 
 - Make sure you have `android:windowSoftInputMode="adjustResize"` in your `AndroidManifest.xml`:
 
@@ -480,6 +480,6 @@ Feel free to ask me questions on Twitter [@FaridSafi](https://www.twitter.com/Fa
 
 ## Hire an expert!
 
-Looking for a ReactNative freelance expert with more than 12 years experience? Contact Xavier from his [website](https://xaviercarpentier.com)!
+Looking for a ReactNative freelance expert with more than 12 years of experience? Contact Xavier from his [website](https://xaviercarpentier.com)!
 
 <img src="https://api.keen.io/3.0/projects/5ae31b61c9e77c0001cc2093/events/pageviews?api_key=55301C3E5BAB217E90A5867113C02506CE20385CD6F4C9C1CCDD4671B1A9DE374C3DF9DEF70C0BB3F5A9C5CA4CB1CCCFAF25FC3ED9CF63FB83102456A6881EFBAECD1C7D9718EE5402752DD8F6FA2DEC4D844BCB17FE6262570DB447D9A8CED2&data=eyJ0aXRsZSI6ICJnYyJ9" />
